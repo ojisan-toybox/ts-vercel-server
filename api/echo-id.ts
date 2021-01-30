@@ -10,7 +10,7 @@ export default async (req: NowRequest, res: NowResponse) => {
     throw new Error("invalid request");
   }
   const { id } = query;
-  return res.json({ id });
+  res.json({ id });
 };
 
 const _isValidVercelRequest = (query: any): query is QueryParams => {
