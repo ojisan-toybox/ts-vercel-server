@@ -1,4 +1,4 @@
-import { NowRequest, NowResponse, VercelRequestQuery } from "@vercel/node";
+import { NowRequest, NowResponse } from "@vercel/node";
 
 type QueryParams = {
   id: string;
