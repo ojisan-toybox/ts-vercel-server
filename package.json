@@ -4,7 +4,7 @@
   "description": "simple ts server on vercel",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "echo build"
   },
   "repository": {
     "type": "git",
