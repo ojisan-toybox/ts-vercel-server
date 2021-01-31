@@ -8,6 +8,7 @@ export default async (req: NowRequest, res: NowResponse) => {
   const { query } = req;
   if (!_isValidVercelRequest(query)) {
     res.json({ error: "error" });
+    return;
   }
   const { id } = query;
   res.json({ id });
